@@ -1,0 +1,32 @@
+{
+  "name": "koishi-plugin-ao",
+  "description": "嗷",
+  "version": "0.0.3",
+  "repository": "https://github.com/Lipraty/koishi-plugin-ao",
+  "author": "Lipraty <i@lonay.me>",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "koishi": {
+    "description": {
+      "zh": "🐺 嗷呜！你的消息被我吃掉啦！"
+    }
+  },
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "message"
+  ],
+  "devDependencies": {
+    "koishi": "^4.11.6"
+  },
+  "peerDependencies": {
+    "koishi": "^4.11.0"
+  }
+}
